@@ -1,30 +1,6 @@
-# RAYLIGHT
+# Three browserify example
 
-Experimental music visualizer.
+Boiler plate code to build a demo with budo and browserify, inspired by the workflow of @mattdesl.
 
-#### Demo
-
-http://raylight.surge.sh/
-
-#### High Quality Settings
-
-http://raylight.surge.sh/?highQuality
-
-#### Screenshots
-
-<img src="screenshots/1.jpg" width="75%" />  
-
-<img src="screenshots/2.jpg" width="75%" />  
-
-#### Credits
-
-Designed & developed by Matt DesLauriers.
-
-Music by Ukioau:  
-https://soundcloud.com/ukiyoau/kaleidoscope
-
-Dust & film noise texture:  
-http://graphicburger.com/dust-noise-overlay-textures/
-
-Original fog shader inspiration from Marcin Ignac:  
-https://twitter.com/marcinignac/status/819977065751527424
+##Motivation
+Three.js npm support is still very basic. Most examples found are done by including THREE through a script tag in the head. This makes it easy to easily add libraries like OrbitControl etc.
