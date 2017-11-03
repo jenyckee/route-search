@@ -1,0 +1,9 @@
+canvas {
+  display: block;
+}
+
+body {
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
