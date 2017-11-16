@@ -64,7 +64,7 @@ function init() {
 	var lineMaterial = new THREE.LineBasicMaterial( {
 		color: 0xffffff,
 	});
-	const offsetX = 40;
+	const offsetX = 35;
 	const offsetY = 30;
 	
 	for (var i = 0; i< 8; i++) {
@@ -72,7 +72,7 @@ function init() {
 			var geometry = new Geometry(pointsMaterial, lineMaterial)
 			geometry.group.position.x += i*10 - offsetX
 			geometry.group.position.y += j*10 - offsetY
-			scene.add( geometry.group );
+			scene.add( geometry.group )
 			geometries.push(geometry)
 		}
 	}
